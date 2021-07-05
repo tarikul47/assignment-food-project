@@ -10,11 +10,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*
+* Food Network CSS
+*/
 #food-network {
     display: flex;
     align-content: center;
     justify-content: center;
-    height: 500px;
+    height: 550px;
     background-color: #ffffff;
     align-items: center;
 }
@@ -29,7 +32,7 @@ body {
 }
 
 .food-network-item2 img {
-    width: 72%;
+    width: 77%;
 }
 
 h1.heading {
@@ -50,7 +53,6 @@ h1.heading {
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
     box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
     border-radius: 100px;
-    margin: 6px 0px;
     display: inline-block;
 }
 .food-network-item1 p {
@@ -59,5 +61,148 @@ h1.heading {
     line-height: 160%;
     letter-spacing: -0.02em;
     color: #828282;
-    margin: 5px 0px 10px;
+    margin: 0px 0px 30px;
+}
+
+/**
+* About Me CSS
+*/
+#about-me {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: url(images/about-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+
+.about-me-item1 {
+    width: 40%;
+}
+
+.about-me-item1 img {
+    width: 50%;
+}
+
+.about-me-item2 {
+    width: 40%;
+}
+.about-me-item2 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #18191F;
+    margin: 20px 0px 49px;
+    text-align: left;
+}
+
+/**
+* Recipies section 
+*/
+#recipies-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+#recipies-heading h2 {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: bold;
+}
+#recipies-heading p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    color: #252525;
+}
+.recipies-items {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.recipie {
+    width: 25%;
+    padding: 10px;
+}
+.recipies-items img {
+    width: 100%;
+}
+.recipie {
+    width: 25%;
+    padding: 10px;
+}
+.recipies-items img {
+    width: 100%;
+}
+/**
+* Our success Box css
+*/
+#our-success {
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#success-box h1 {
+    color: #18191f;
+    font-size: 48px;
+    line-height: 64px;
+}
+#success-box p {
+    color: #18191f;
+    font-size: 16px;
+    line-height: 26px;
+}
+#success-box {
+    background: #ffffff;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+/**
+* Footer section css
+*/
+footer {
+    background: #0B0D17;
+    height: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h3.footer-title {
+    font-size: 30px;
+    color: #5b5b5b;
+    line-height: 41px;
+}
+footer span {
+    background: #FBA24F;
+    background: -webkit-linear-gradient(to right, #FBA24F 0%, #FF1E1E 100%);
+    background: -moz-linear-gradient(to right, #FBA24F 0%, #FF1E1E 100%);
+    background: linear-gradient(to right, #FBA24F 0%, #FF1E1E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 10px 0px;
 }
