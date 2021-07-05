@@ -53,3 +53,11 @@ h1.heading {
     margin: 6px 0px;
     display: inline-block;
 }
+.food-network-item1 p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    color: #828282;
+    margin: 5px 0px 10px;
+}
