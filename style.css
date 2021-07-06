@@ -134,7 +134,7 @@ h1.heading {
 * Recipies section 
 */
 #recipies-sec {
-    padding: 40px 0px 30px;
+    padding: 0px 0px 30px;
 }
 .recipie {
     width: 25%;
@@ -229,9 +229,10 @@ h1.heading {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%),url(images/book-bg.jpg);background-position: center; background-repeat: no-repeat; background-size: cover;
 }
 #order-table-box {
-    background: linear-gradient(to right, rgb(251, 162, 79,.8) 16%, rgb(255, 30, 30, 0.6) 30%, rgb(251, 162, 79,0.7));
+    background: linear-gradient(to right, rgb(255 255 255 / 80%) 16%, rgb(248 243 243 / 60%) 30%, rgb(91 91 91 / 30%));
     width: 85%;
     display: flex;
     flex-wrap: nowrap;
@@ -240,7 +241,7 @@ h1.heading {
     align-items: center;
     height: 150px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .order-box {
     flex-basis: 100%;
