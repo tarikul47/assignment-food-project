@@ -13,15 +13,32 @@ body {
 /**
 * Navbar Css
 */
-#navbar {
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
-    height: 100px;
-    background: #FFFFFF;
+header {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+    height: 85px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    place-content: center;
+    background-color: rgb(251 123 79 / 35%);
+}
+#header-box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+}
+.navabar {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.logo img {
+    width: 40%;
+}
+ul li > a {
+    color: #222;
+    font-size: 17px;
 }
 /*
 * Food Network CSS
