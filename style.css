@@ -220,7 +220,50 @@ h1.heading {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
-
+/**
+* Oder table css
+*/
+#order-table {
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#order-table-box {
+    background: linear-gradient(to right, rgb(251, 162, 79,.8) 16%, rgb(255, 30, 30, 0.6) 30%, rgb(251, 162, 79,0.7));
+    width: 85%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.order-box {
+    flex-basis: 100%;
+    text-align: center;
+}
+#order-table-box input, select {
+    width: 60%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #222;
+    background-color: transparent;
+    color: #000;
+}
+input[type="submit"]:hover {
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    border: none;
+    cursor: pointer;
+    color: #000;
+}
+input::placeholder {
+    color: #000;
+}
 /**
 * Footer section css
 */
